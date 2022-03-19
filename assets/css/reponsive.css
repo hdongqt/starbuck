@@ -1,0 +1,159 @@
+/* cả hai */
+@media (max-width: 1128px){
+    .header__main-menu {
+        left: 9%;
+    }
+
+}
+@media (max-width: 1024px) {
+    .header{
+        height: var(--menu__small-height);   
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__line-up{
+        display: none;
+    }
+   #clock{
+       display: none;
+   }
+   .header__main-menu{
+       display: none;
+   }
+   .header__main{
+       padding: 0;
+       height: 100%;
+       margin: 0;
+   }
+   .header__main-location{
+       display: none;
+   }
+   .icon-scroll{
+      display: none;
+   }
+   .container__conttent__item{
+        padding: 0 26px;
+   }
+   .container__content__item-message-title{
+        font-size: 1.8rem;
+   }
+   .container__content__item-message-info{
+
+   }
+   .container__content__item-img{
+       max-width: 360px;
+   }
+   .container__content__item-message {
+    margin-top: 21px;
+   }
+   .item-swap .container__content__item-img{
+    margin-right: 18px;
+   }
+   .social{
+     bottom: 60px;
+     right: -100px;
+     opacity: 0;
+   }
+   .logo{
+       width: 50px;
+       margin-top: 8px;
+   }
+   .footer__logo{
+       display: none;
+   }
+   .footer__list-info-column:nth-child(4),
+   .footer__list-info-column:nth-child(5){
+       display: none;
+   }
+   .social-all{
+    display: block;
+}
+.header__menu__mobile{
+    display: block;
+}
+
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .footer__menu{
+        padding: 0;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .footer__list-info-column{
+        flex: 1;
+    }
+    .footer__list-language{
+        margin-left: 30px;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .container__conttent__item{
+       flex-direction: column;
+       padding: 0 28x;
+       align-items: center;
+   }
+   .item-swap{
+       flex-direction: column-reverse;
+   }
+   .footer__menu-list{
+       flex-direction: column;
+       width: 100vw;
+   }
+   .footer__list-info-column{
+       width: 100%;
+       margin-top: 24px;
+   }
+   .footer{
+       text-align: center;
+   }
+   .container__conttent__item{
+    margin: 0px auto 55px auto;
+    text-align: center;
+  }
+  .footer__list-language{
+      /* margin-left: -8px; */
+  }
+  .list__police{
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      margin: 42px 0 0 0;
+  }
+  .list__police-item{
+      margin-bottom: 20px;
+  }
+  .container__content__item-message{
+      margin-bottom: 10px;
+  }
+  .footer__menu{
+      padding: 0;
+  }
+  .modal{
+      
+  }
+  .modal-container{
+      width: 100%;
+  }
+  .modal-body{
+      padding: 14px 10px 10px 9px;
+  }
+  .modal-container{
+    min-width: 300px;
+}
+.container__content__item--get{
+    width: 100%;
+}
+.counter-item--content,.counter-item--title{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.counter-item--icon{
+    font-size: 4.2rem;
+}
+}
